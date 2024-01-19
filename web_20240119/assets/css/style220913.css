@@ -1,0 +1,15 @@
+.feature-table-block__content .main-text{
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #5c5739;
+}
+.table--gold th{
+    border: 1px solid #fff;
+}
+
+@media (max-width: 960px) {
+    .feature-item__main-text {
+        margin-left: 14%;
+    }
+}
