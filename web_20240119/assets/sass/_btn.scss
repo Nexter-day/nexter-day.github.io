@@ -1,0 +1,31 @@
+.btn {
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0;
+  height: 40px;
+  line-height: 38px;
+  border-radius: 40px;
+  font-size: 16px;
+  text-align: center;
+  padding: 0;
+  border: 0;
+  max-width: 100%;
+  color: #af8d5a;
+  display: block;
+  border: 1px solid #af8d5a;
+  background-color: transparent;
+  letter-spacing: .05em;
+  @include transition(background-color .5s);
+
+  &:hover,
+  &:active {
+    color: #fff;
+    background-color: #af8d5a;
+  }
+
+  &.active {
+    color: #fff;
+    background-color: #af8d5a;
+  }
+
+}

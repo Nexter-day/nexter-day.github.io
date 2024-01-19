@@ -1,0 +1,87 @@
+.icon {
+  white-space: nowrap;
+  text-indent: 100%;
+  overflow: hidden;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+  border-radius: 0;
+  position: relative;
+  width: 20px;
+  height: 20px;
+
+
+  &-collapse {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      background-color: #af8d5a;
+    }
+
+    &:before {
+      top: calc(50% - .5px);
+      left: 0;
+      height: 1px;
+      width: 100%;
+    }
+
+    &:after {
+      top: 0;
+      left: calc(50% - .5px);
+      width: 1px;
+      height: 100%;
+    }
+
+  }
+
+  &-globe {
+    background-image: url(../images/icon-globe-white.svg);
+  }
+
+  &-map {
+    background-image: url(../images/icon-map-white.svg);
+  }
+
+  &-close {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    margin-right: 4px;
+    margin-top: -4px;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      background-color: #005855;
+    }
+
+    &:before {
+      top: calc(50% - .5px);
+      left: 0;
+      height: 1px;
+      width: 100%;
+    }
+
+    &:after {
+      top: 0;
+      left: calc(50% - .5px);
+      width: 1px;
+      height: 100%;
+    }
+
+  }
+
+
+}
+
